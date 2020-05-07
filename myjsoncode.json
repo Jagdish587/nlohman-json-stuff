@@ -1,0 +1,31 @@
+{
+	"common": {
+			"appName": "androidautohmi",
+			"sdkversion": "testversion-2.0.0",
+			"vendor": "Myself",
+			"author": "Jagdish Tirumala ",
+			"buildate": "2020-05-06",
+			"dependencey": {
+				"testServices": [
+					"testservice", "testHrk"
+				],
+				"applications": [
+					"userhmi"
+				]
+			 }	
+	},
+	"appServices": {
+		"MyService": {
+			"dbussupport": {
+				"p2p": true,
+				"broadcast": true
+			 },
+			 "windows": [{
+				 "screen": [
+					"REAR_LEFT","FRONT_CENTRE","REAR_RIGHT"
+					]
+				}
+			 ]
+		  }
+	}	  	 		
+}	
